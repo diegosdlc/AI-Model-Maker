@@ -1,4 +1,4 @@
-from skelearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier
 
 def RFC_model(){
   rfc = RandomForestClassifier()
