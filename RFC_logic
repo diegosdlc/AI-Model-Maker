@@ -1,6 +1,4 @@
 from sklearn.ensemble import RandomForestClassifier
 
-def RFC_model(){
+def RFC_model():
   rfc = RandomForestClassifier()
-  
-}
