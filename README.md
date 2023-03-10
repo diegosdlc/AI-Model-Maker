@@ -10,13 +10,13 @@ Diseñador de modelos de predicción no code.
     - n_estimators
     - max_depth
     
-- Regresión logística (Scikit learn)
-- Regresión lineal (Scikit learn)
+- Regresión logística (Scikit learn) [PROXIMAMENTE]
+- Regresión lineal (Scikit learn) [PROXIMAMENTE]
 
 ### Procesado de datos:
 - Importación en varios formatos
   - CSV
-  - Excel
-  - PDF (formato tabla)
+  - Excel [PROXIMAMENTE]
+  - PDF (formato tabla) [PROXIMAMENTE]
   
 - Separación de datos de entrenamiento y test
