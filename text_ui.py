@@ -3,6 +3,8 @@
 import RFC_logic
 import data_processing
 
+print('prueba rama')
+
 print('MODEL MAKER V 1.0')
 
 #Solicita los datos para el entrenamiento
@@ -24,9 +26,9 @@ print("""Seleccione modelo:
 2: Regresion logistica
 3: Regresion lineal
 """)
-model = int(input('Introduzca seleccion: '))
+model_select = int(input('Introduzca seleccion: '))
 
-if model == 1:
+if model_select == 1:
     print('SELECCIONADO MODELO DE CLASIFICACION RFC. Seleccion de parametros')
     # Parametros para modelo RFC
     n_estimators = input('Seleccione numero de arboles: ')
@@ -47,9 +49,9 @@ if model == 1:
     print('Matriz de confusion: \n')
     print(conf_matrix)
 
-elif model == 2:
+elif model_select == 2:
     print('SELECCIONADO MODELO DE CLASIFICACION LINEAL. Proximamente')
-elif model == 3:
+elif model_select == 3:
     print('SELECCIONADO MODELO DE REGRESION LINEAL. Proximamente')
 else:
     print('ERROR: seleccion no valida')
