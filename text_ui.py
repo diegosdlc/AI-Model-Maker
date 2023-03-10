@@ -3,8 +3,6 @@
 import RFC_logic
 import data_processing
 
-print('prueba rama')
-
 print('MODEL MAKER V 1.0')
 
 #Solicita los datos para el entrenamiento
